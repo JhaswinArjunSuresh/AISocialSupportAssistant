@@ -31,5 +31,5 @@ if submit:
         else:
             st.error(f"API error: {resp.status_code} - {resp.text}")
     except Exception as e:
-        st.error("Failed to contact backend API: " + str(e))
+        st.error("Failed to contact backend API : " + str(e))
 
